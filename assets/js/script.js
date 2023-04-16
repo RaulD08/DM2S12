@@ -19,6 +19,7 @@ $(document).ready(function(){
         $(this).css("display","none")
         $(".card").removeClass("active")
         $(".card-img-top").removeClass("active")
+        $("#divCarrusel2").css("display","none")
     })
 
     $("#navCont").click(function(){
@@ -26,6 +27,11 @@ $(document).ready(function(){
     })
     $("#navRes").click(function(){
         $("#formReserva").css("display","inline-block")
+    })
+    $("#navSob").click(function(){
+        $("#overlay").fadeIn(300)
+        $("#overlay").css("display","block")
+        $("#divCarrusel2").css("display","inline")
     })
     
 })
