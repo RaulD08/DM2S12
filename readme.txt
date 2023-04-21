@@ -1,0 +1,1 @@
+Proyecto de página web de Pub Restaurant "Nimrodel", desarrollado por Raúl Donoso Jara para los Drilling del módulo 2 del bootcamp "Desarrollo de Aplicaciones Full Stack Python Trainee".
